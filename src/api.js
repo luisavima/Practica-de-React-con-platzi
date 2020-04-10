@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:3001";
+//const BASE_URL = "http://localhost:3001";
+const BASE_URL = "https://sharp-panini-f28db4.netlify.com:3001";
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const randomNumber = (min = 0, max = 1) =>
